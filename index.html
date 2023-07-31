@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f9a825, #e65100);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #e65100;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .heart {
+            color: #e65100;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .signature {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Add a hover effect to the heart icon */
+        .heart:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Add a pulsating effect to the title */
+        @keyframes pulsate {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        h1 {
+            animation: pulsate 2s ease-in-out infinite;
+        }
+
+        /* Add a bouncing effect to the container */
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            animation: bounce 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <p>Dear shivani,</p>
+        <p>On this special day, I want to wish you a very happy birthday! You are the most beloved person in my life, and I am grateful for your presence.</p>
+        <p>May this day be filled with joy, laughter, and everything that brings a smile to your face. Your kindness, love, and support have made a significant impact on my life, and I cherish all the wonderful memories we've created together.</p>
+        <p>Wishing you all the happiness and success in the world on your birthday and always.</p>
+        <p class="heart">❤️</p>
+        <p class="signature">With all my love,<br>shivaryan</p>
+    </div>
+</body>
+</html>
